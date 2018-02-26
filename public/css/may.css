@@ -1,0 +1,40 @@
+.just {
+  text-align: justify;
+}
+@media (min-width: 768px) {
+  .push-1 {
+    left: 11.66666666666666%;
+  }
+}
+
+@media (min-width: 992px) {
+  .push-1 {
+    left: 11.66666666666666%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .push-1 {
+    left: 12.66666666666666%;
+  }
+}
+@media (min-width: 768px) {
+  .push-2 {
+    left: 20.66666666666666%;
+  }
+}
+
+@media (min-width: 992px) {
+  .push-2 {
+    left: 20.66666666666666%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .push-2 {
+    left: 24.66666666666666%;
+  }
+}
+.zoom:hover {
+    transform: scale(1.1);
+}

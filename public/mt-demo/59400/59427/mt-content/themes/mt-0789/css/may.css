@@ -1,0 +1,52 @@
+.round-pageTrans {
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid #eae3e3;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #746666;
+    color: #555555;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    margin-bottom: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+@media screen and (max-width: 515px) {
+    .round-pageTrans {
+        padding: 5px;
+    }
+}
+.spacing {
+    margin-top: 50px;
+}
+@media screen and (max-width: 766px) {
+    .spacing {
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 410px) {
+    .spacing {
+        margin-top: 25px;
+    }
+}
+@media screen and (max-width: 325px) {
+    .spacing {
+    margin-top: 15px;
+}
+.round-page {
+    background: none repeat scroll 0 0 #FEFEFE;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #EEEEEE;
+    color: #555555;
+    padding: 30px;
+}
+.pad-bottom {
+    padding-bottom: 35px;
+}
+.justify {
+     text-align: justify;
+}
+
+.demo {
+    text-decoration: none;
+}
