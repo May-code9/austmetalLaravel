@@ -16,10 +16,10 @@ class AuthUser
      */
     public function handle($request, Closure $next)
     {
-        if(Auth::check() && Auth::user()->role > 2) {
-          return $next($request);
-        } else {
-          return redirect('/');
-        }
+      if(Auth::check() && Auth::user()->role > 2) {
+        return $next($request);
+      } else {
+        return redirect('/');
+      }
     }
 }

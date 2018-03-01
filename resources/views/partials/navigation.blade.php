@@ -123,7 +123,7 @@
                       onclick="event.preventDefault();
                       document.getElementById('logout-form').submit();" data-action="page" class="moto-widget-menu-link moto-widget-menu-link-level-2 moto-link ">Logout</a>
                       <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                        @csrf
+                        {{ csrf_field() }}
                       </form>
                     </li>
                   </ul>

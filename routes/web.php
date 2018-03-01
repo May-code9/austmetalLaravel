@@ -34,3 +34,7 @@ Route::group(['middleware'=>'authuser'], function() {
   Route::resource('window', 'WindowController');
 });
 Auth::routes();
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
